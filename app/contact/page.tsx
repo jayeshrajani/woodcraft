@@ -19,7 +19,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission logic
     setTimeout(() => {
       setIsSubmitting(false);
@@ -125,7 +125,7 @@ export default function Contact() {
               width="100%"
               height="100%"
               style={{ border: 0 }}
-              allowFullScreen=""
+              
               loading="lazy"
             />
           </div>
